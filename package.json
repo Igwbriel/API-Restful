@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
+    "knex": "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js",
     "lint": "eslint src --ext .ts --fix"
   },
   "keywords": [],
@@ -14,6 +15,7 @@
     "@rocketseat/eslint-config": "^2.2.2",
     "@types/node": "^20.11.30",
     "eslint": "^8.57.0",
+    "ts-node": "^10.9.2",
     "tsx": "^4.7.1",
     "typescript": "^5.4.3"
   },
