@@ -5,5 +5,5 @@
 - [x] O usuário deve poder visualizar uma transação única;
 # RN
 - [x] A transação poder ser do tipo crédito que somará ao valor total, ou débito subtraíra;
-- [ ] Deve ser possível identificarmos o usuário entre as requisições;
-- [ ] O usuário só pode visualizar transações o qual ele criou;
+- [x] Deve ser possível identificarmos o usuário entre as requisições;
+- [x] O usuário só pode visualizar transações o qual ele criou;
